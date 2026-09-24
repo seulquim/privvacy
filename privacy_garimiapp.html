@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Garimi</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #222;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: #111;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      color: #222;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    ul {
+      margin: 12px 0 12px 24px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .updated {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+
+    .notice-box {
+      background-color: #f2f7ff;
+      border: 1px solid #d5e5ff;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .contact-box {
+      background-color: #f2f4f8;
+      border: 1px solid #ddd;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 16px;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <main class="container">
+
+```
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: September 24, 2026</p>
+
+<p>
+  This Privacy Policy explains how Garimi ("we", "our", or "the Developer")
+  handles information in <strong>Garimi</strong> ("the App").
+</p>
+
+<p>
+  Garimi is a privacy-focused photo editing application designed to detect
+  faces and potentially sensitive information in images and allow users to
+  obscure those areas using mosaic, blur, solid-color masking, noise, stickers,
+  and other editing tools.
+</p>
+
+<div class="notice-box">
+  <strong>Important:</strong>
+  Garimi does not upload photos selected by users to servers operated by
+  Garimi. Face detection, text recognition, sensitive-data detection,
+  and image editing are designed to be performed on the user's device
+  whenever supported by the underlying platform and SDKs.
+</div>
+
+<p>
+  By using the App, you agree to the practices described in this Privacy Policy.
+</p>
+
+
+<h2>1. Information Processed by the App</h2>
+
+<p>
+  Garimi does not require users to create an account and does not directly
+  collect or store personal information such as names, email addresses,
+  phone numbers, postal addresses, contacts, or user photos on servers
+  operated by Garimi.
+</p>
+
+<p>
+  When a user selects a photo, the App may process that photo locally on the
+  device to provide features including:
+</p>
+
+<ul>
+  <li>Face detection</li>
+  <li>Optical character recognition (OCR)</li>
+  <li>Detection of possible Korean resident registration number patterns</li>
+  <li>Detection of possible payment card numbers, including Luhn validation</li>
+  <li>Detection of phone number patterns</li>
+  <li>Detection of email addresses</li>
+  <li>Detection of vehicle registration number patterns</li>
+  <li>Detection of possible bank account number patterns</li>
+  <li>Manual selection of areas to obscure</li>
+  <li>Image editing, saving, and export</li>
+</ul>
+
+<p>
+  Automated detection may produce false positives or fail to detect some
+  information. Users should review the final edited image before saving,
+  exporting, or sharing it.
+</p>
+
+
+<h2>2. Photo and Image Processing</h2>
+
+<p>
+  Photos selected by the user are processed in device memory or local
+  storage accessible to the App for the purpose of providing privacy editing
+  functionality.
+</p>
+
+<p>
+  The App's core image editing functionality does not upload the user's
+  original or edited photos to servers operated by Garimi.
+</p>
+
+<p>
+  When the user chooses to save an edited image, the result may be stored in
+  the device's photo gallery or in App-specific local storage.
+</p>
+
+<p>
+  If saving to the system gallery is not available due to device or operating
+  system restrictions, the App may use an App-specific storage location as a
+  fallback.
+</p>
+
+
+<h2>3. Face Detection</h2>
+
+<p>
+  Garimi may use Google ML Kit or similar on-device technologies to detect
+  the location of faces in user-selected images.
+</p>
+
+<p>
+  Face detection is used only to identify areas that the user may wish to
+  obscure using mosaic, blur, masking, or other privacy tools.
+</p>
+
+<p>
+  The App does not operate a facial recognition database and does not attempt
+  to identify a person by name or associate a detected face with a specific
+  individual.
+</p>
+
+<p>
+  Garimi does not store face images or face detection results on its own
+  servers.
+</p>
+
+
+<h2>4. OCR and Sensitive Information Detection</h2>
+
+<p>
+  Garimi may use Google ML Kit text recognition or similar technology to
+  analyze text contained in an image.
+</p>
+
+<p>
+  Recognized text may be evaluated locally to identify potential sensitive
+  information, including:
+</p>
+
+<ul>
+  <li>Korean resident registration number patterns</li>
+  <li>Payment card number patterns</li>
+  <li>Phone numbers</li>
+  <li>Email addresses</li>
+  <li>Vehicle registration numbers</li>
+  <li>Possible bank account numbers</li>
+</ul>
+
+<p>
+  Some detections are based on pattern-matching rules or validation
+  algorithms and may identify text that is not actually sensitive information.
+</p>
+
+<p>
+  OCR results and recognized sensitive text are used for the App's editing
+  functionality and are not uploaded to or stored on servers operated by
+  Garimi
+</p>
+
+
+<h2>5. Editing Features</h2>
+
+<p>
+  Users may apply privacy protection to detected or manually selected areas
+  using features including:
+</p>
+
+<ul>
+  <li>Mosaic</li>
+  <li>Blur</li>
+  <li>Solid-color masking</li>
+  <li>Noise masking</li>
+  <li>Sticker masking</li>
+  <li>Manual rectangular selections</li>
+  <li>Manual elliptical selections</li>
+</ul>
+
+<p>
+  Users may include or exclude automatically detected regions and may use
+  undo and redo functionality during editing.
+</p>
+
+
+<h2>6. Image Saving and Metadata</h2>
+
+<p>
+  Edited images may be saved in formats such as JPEG or PNG.
+</p>
+
+<p>
+  The App is designed to remove certain metadata, including some EXIF
+  metadata, by re-encoding the image during export.
+</p>
+
+<p>
+  However, removal of every possible metadata field cannot be guaranteed
+  across all devices, operating systems, image formats, or future App versions.
+</p>
+
+<p>
+  Users should independently verify highly sensitive images before sharing
+  them outside the device.
+</p>
+
+
+<h2>7. Device Permissions</h2>
+
+<p>
+  Depending on the device and operating system, the App may request access
+  to or use system functionality required for:
+</p>
+
+<ul>
+  <li>Selecting photos or media</li>
+  <li>Saving edited photos</li>
+  <li>Using the system Photo Picker</li>
+  <li>Accessing permitted device storage locations</li>
+</ul>
+
+<p>
+  On supported Android and iOS versions, the App may prefer system-provided
+  photo selection mechanisms instead of requesting broad access to the
+  user's entire photo library.
+</p>
+
+
+<h2>8. Local Data Storage</h2>
+
+<p>
+  The App may store settings, editing state, preferences, and other
+  App-related data locally on the user's device.
+</p>
+
+<p>
+  This local data is used only to provide or improve the App's functionality.
+</p>
+
+<p>
+  Users may delete local App data by:
+</p>
+
+<ul>
+  <li>Using deletion features available in the App</li>
+  <li>Clearing the App's storage through the operating system</li>
+  <li>Uninstalling the App</li>
+</ul>
+
+
+<h2>9. Third-Party Services</h2>
+
+<p>
+  The App may use services or SDKs provided by Google or other third parties
+  to provide certain functionality.
+</p>
+
+<p>
+  Services currently used or that may be used in future versions include:
+</p>
+
+<ul>
+  <li>Google Play Services</li>
+  <li>Google ML Kit</li>
+  <li>Google AdMob</li>
+  <li>Firebase Crashlytics, if enabled</li>
+  <li>Google Analytics for Firebase, if enabled</li>
+</ul>
+
+<p>
+  These third-party services may process certain technical information in
+  accordance with their own privacy policies and terms.
+</p>
+
+<ul>
+  <li>
+    Google Privacy Policy:
+    <a href="https://policies.google.com/privacy"
+       target="_blank"
+       rel="noopener noreferrer">
+      https://policies.google.com/privacy
+    </a>
+  </li>
+
+  <li>
+    Google ML Kit Terms:
+    <a href="https://developers.google.com/ml-kit/terms"
+       target="_blank"
+       rel="noopener noreferrer">
+      https://developers.google.com/ml-kit/terms
+    </a>
+  </li>
+
+  <li>
+    Google AdMob:
+    <a href="https://support.google.com/admob/answer/6128543"
+       target="_blank"
+       rel="noopener noreferrer">
+      https://support.google.com/admob/answer/6128543
+    </a>
+  </li>
+
+  <li>
+    Firebase Privacy:
+    <a href="https://firebase.google.com/support/privacy"
+       target="_blank"
+       rel="noopener noreferrer">
+      https://firebase.google.com/support/privacy
+    </a>
+  </li>
+</ul>
+
+
+<h2>10. Advertising</h2>
+
+<p>
+  Garimi may display advertisements through Google AdMob or similar
+  advertising services.
+</p>
+
+<p>
+  If advertising services are enabled, advertising providers may process
+  information such as:
+</p>
+
+<ul>
+  <li>Device information</li>
+  <li>Operating system and App version</li>
+  <li>Advertising ID, where available and permitted</li>
+  <li>Approximate location</li>
+  <li>Ad interaction information</li>
+  <li>App usage and diagnostic information</li>
+</ul>
+
+<p>
+  Network communications performed by advertising SDKs are separate from
+  the App's photo editing and privacy detection functionality.
+</p>
+
+<p>
+  The App is not designed to provide user-selected photos, OCR-recognized
+  text, detected faces, or sensitive-information coordinates to advertising
+  providers for advertising purposes.
+</p>
+
+<p>
+  We do not sell personal information to advertisers.
+</p>
+
+
+<h2>11. Analytics and Crash Reporting</h2>
+
+<p>
+  The App may use analytics or crash reporting services in future versions
+  to improve stability, performance, and usability.
+</p>
+
+<p>
+  If such services are used, the App is designed so that the following
+  sensitive information should not be intentionally included in analytics
+  events or crash reports:
+</p>
+
+<ul>
+  <li>User-selected original photos</li>
+  <li>Local photo file paths</li>
+  <li>Actual OCR-recognized text</li>
+  <li>Exact face or sensitive-data coordinates</li>
+  <li>Resident registration numbers</li>
+  <li>Phone numbers</li>
+  <li>Email addresses</li>
+  <li>Bank account numbers</li>
+</ul>
+
+
+<h2>12. Data Sharing</h2>
+
+<p>
+  Garimi does not sell user photos or sensitive information detected
+  within photos.
+</p>
+
+<p>
+  Third-party service providers may process limited technical information
+  when necessary to operate, maintain, analyze, improve, or monetize the App.
+  Such processing is governed by the respective provider's privacy policy
+  and applicable law.
+</p>
+
+<p>
+  We may disclose information where required by applicable law or a valid
+  legal process. However, because Garimi does not operate a centralized
+  server storing user photos or OCR results for the App's core functionality,
+  we cannot provide information that we do not possess.
+</p>
+
+
+<h2>13. Data Security</h2>
+
+<p>
+  Garimi is designed to perform as much photo processing as reasonably
+  possible on the user's device in order to reduce unnecessary transmission
+  of sensitive content.
+</p>
+
+<p>
+  However, no method of electronic storage, processing, or transmission can
+  guarantee absolute security. Users should take appropriate precautions
+  when storing or sharing highly sensitive images.
+</p>
+
+
+<h2>14. Data Retention and Deletion</h2>
+
+<p>
+  Garimi does not retain user photos, OCR-recognized text, or face
+  detection data on its own servers as part of the App's core image editing
+  functionality.
+</p>
+
+<p>
+  Data stored locally on the user's device may remain until the user deletes
+  it, clears App storage, deletes saved images, or uninstalls the App.
+</p>
+
+<p>
+  Information processed by third-party services such as Google AdMob or
+  Firebase is retained and deleted according to the privacy policies and
+  retention practices of those providers.
+</p>
+
+
+<h2>15. Children's Privacy</h2>
+
+<p>
+  Garimi is not primarily directed to children under the age of 13.
+</p>
+
+<p>
+  We do not knowingly collect personally identifiable information from
+  children under 13 through servers operated by Garimi.
+</p>
+
+<p>
+  If the App is later made available to children under 13 or becomes part of
+  a child-directed target audience, we will update this Privacy Policy and
+  implement additional measures required by applicable child privacy laws,
+  Google Play policies, and other relevant platform requirements.
+</p>
+
+
+<h2>16. User Choices</h2>
+
+<p>
+  Users may manage App-related privacy settings through their device,
+  including:
+</p>
+
+<ul>
+  <li>Changing photo access permissions</li>
+  <li>Changing storage-related permissions</li>
+  <li>Deleting locally stored App data</li>
+  <li>Deleting saved edited images</li>
+  <li>Resetting or deleting the Advertising ID</li>
+  <li>Limiting personalized advertising where supported</li>
+  <li>Uninstalling the App</li>
+</ul>
+
+
+<h2>17. Changes to This Privacy Policy</h2>
+
+<p>
+  We may update this Privacy Policy from time to time to reflect changes in
+  App functionality, applicable law, Google Play or Apple App Store policies,
+  or third-party services used by the App.
+</p>
+
+<p>
+  When this Privacy Policy is updated, the "Last updated" date shown at the
+  top of this page will be revised.
+</p>
+
+
+<h2>18. Contact Us</h2>
+
+<p>
+  If you have any questions, concerns, or requests regarding this Privacy
+  Policy or the App's data practices, please contact us:
+</p>
+
+<div class="contact-box">
+  <p><strong>Developer Name:</strong> Seung Seob Lee</p>
+  <p><strong>Developer / Publisher:</strong> SeulStudio</p>
+  <p><strong>App Name:</strong> Garimi</p>
+
+  <p>
+    <strong>Email:</strong>
+    <a href="mailto:quim119@gmail.com">quim119@gmail.com</a>
+  </p>
+</div>
+
+<footer>
+  <p>&copy; 2026 SeulStudio All rights reserved.</p>
+</footer>
+```
+
+  </main>
+</body>
+</html>
