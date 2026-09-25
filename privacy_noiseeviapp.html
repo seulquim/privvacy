@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy - 층간기록</title>
-
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -15,20 +13,17 @@
       background-color: #f7f7f7;
       color: #222;
     }
-
     .container {
       max-width: 900px;
       margin: 0 auto;
       padding: 40px 24px;
       background-color: #ffffff;
     }
-
     h1 {
       font-size: 32px;
       margin-bottom: 8px;
       color: #111;
     }
-
     h2 {
       font-size: 22px;
       margin-top: 36px;
@@ -37,36 +32,20 @@
       border-bottom: 1px solid #ddd;
       padding-bottom: 6px;
     }
-
-    p {
-      margin: 12px 0;
-    }
-
-    ul {
-      margin: 12px 0 12px 24px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
+    p { margin: 12px 0; }
+    ul { margin: 12px 0 12px 24px; padding: 0; }
+    li { margin-bottom: 8px; }
     a {
       color: #1a73e8;
       text-decoration: none;
       word-break: break-all;
     }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
+    a:hover { text-decoration: underline; }
     .updated {
       color: #666;
       font-size: 14px;
       margin-bottom: 32px;
     }
-
     .notice-box {
       background-color: #f2f7ff;
       border: 1px solid #d5e5ff;
@@ -74,7 +53,13 @@
       border-radius: 8px;
       margin: 20px 0;
     }
-
+    .warning-box {
+      background-color: #fff8eb;
+      border: 1px solid #f0d9a7;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
     .contact-box {
       background-color: #f2f4f8;
       border: 1px solid #ddd;
@@ -82,7 +67,6 @@
       border-radius: 8px;
       margin-top: 16px;
     }
-
     footer {
       margin-top: 48px;
       padding-top: 20px;
@@ -91,500 +75,392 @@
       font-size: 14px;
     }
   </style>
-
 </head>
 
 <body>
   <main class="container">
 
-```
-<h1>Privacy Policy</h1>
-<p class="updated">Last updated: September 24, 2026</p>
-
-<p>
-  This Privacy Policy explains how 층간기록 ("we", "our", or "the Developer")
-  handles information in <strong>층간기록</strong> ("the App").
-</p>
-
-<p>
-  층간기록 is a privacy-focused photo editing application designed to detect
-  faces and potentially sensitive information in images and allow users to
-  obscure those areas using mosaic, blur, solid-color masking, noise, stickers,
-  and other editing tools.
-</p>
-
-<div class="notice-box">
-  <strong>Important:</strong>
-  층간기록 does not upload photos selected by users to servers operated by
-  층간기록. Face detection, text recognition, sensitive-data detection,
-  and image editing are designed to be performed on the user's device
-  whenever supported by the underlying platform and SDKs.
-</div>
-
-<p>
-  By using the App, you agree to the practices described in this Privacy Policy.
-</p>
-
-
-<h2>1. Information Processed by the App</h2>
-
-<p>
-  층간기록 does not require users to create an account and does not directly
-  collect or store personal information such as names, email addresses,
-  phone numbers, postal addresses, contacts, or user photos on servers
-  operated by 층간기록.
-</p>
-
-<p>
-  When a user selects a photo, the App may process that photo locally on the
-  device to provide features including:
-</p>
-
-<ul>
-  <li>Face detection</li>
-  <li>Optical character recognition (OCR)</li>
-  <li>Detection of possible Korean resident registration number patterns</li>
-  <li>Detection of possible payment card numbers, including Luhn validation</li>
-  <li>Detection of phone number patterns</li>
-  <li>Detection of email addresses</li>
-  <li>Detection of vehicle registration number patterns</li>
-  <li>Detection of possible bank account number patterns</li>
-  <li>Manual selection of areas to obscure</li>
-  <li>Image editing, saving, and export</li>
-</ul>
-
-<p>
-  Automated detection may produce false positives or fail to detect some
-  information. Users should review the final edited image before saving,
-  exporting, or sharing it.
-</p>
-
-
-<h2>2. Photo and Image Processing</h2>
-
-<p>
-  Photos selected by the user are processed in device memory or local
-  storage accessible to the App for the purpose of providing privacy editing
-  functionality.
-</p>
-
-<p>
-  The App's core image editing functionality does not upload the user's
-  original or edited photos to servers operated by 층간기록.
-</p>
-
-<p>
-  When the user chooses to save an edited image, the result may be stored in
-  the device's photo gallery or in App-specific local storage.
-</p>
-
-<p>
-  If saving to the system gallery is not available due to device or operating
-  system restrictions, the App may use an App-specific storage location as a
-  fallback.
-</p>
-
-
-<h2>3. Face Detection</h2>
-
-<p>
-  층간기록 may use Google ML Kit or similar on-device technologies to detect
-  the location of faces in user-selected images.
-</p>
-
-<p>
-  Face detection is used only to identify areas that the user may wish to
-  obscure using mosaic, blur, masking, or other privacy tools.
-</p>
-
-<p>
-  The App does not operate a facial recognition database and does not attempt
-  to identify a person by name or associate a detected face with a specific
-  individual.
-</p>
-
-<p>
-  층간기록 does not store face images or face detection results on its own
-  servers.
-</p>
-
-
-<h2>4. OCR and Sensitive Information Detection</h2>
-
-<p>
-  층간기록 may use Google ML Kit text recognition or similar technology to
-  analyze text contained in an image.
-</p>
-
-<p>
-  Recognized text may be evaluated locally to identify potential sensitive
-  information, including:
-</p>
-
-<ul>
-  <li>Korean resident registration number patterns</li>
-  <li>Payment card number patterns</li>
-  <li>Phone numbers</li>
-  <li>Email addresses</li>
-  <li>Vehicle registration numbers</li>
-  <li>Possible bank account numbers</li>
-</ul>
-
-<p>
-  Some detections are based on pattern-matching rules or validation
-  algorithms and may identify text that is not actually sensitive information.
-</p>
-
-<p>
-  OCR results and recognized sensitive text are used for the App's editing
-  functionality and are not uploaded to or stored on servers operated by
-  층간기록
-</p>
-
-
-<h2>5. Editing Features</h2>
-
-<p>
-  Users may apply privacy protection to detected or manually selected areas
-  using features including:
-</p>
-
-<ul>
-  <li>Mosaic</li>
-  <li>Blur</li>
-  <li>Solid-color masking</li>
-  <li>Noise masking</li>
-  <li>Sticker masking</li>
-  <li>Manual rectangular selections</li>
-  <li>Manual elliptical selections</li>
-</ul>
-
-<p>
-  Users may include or exclude automatically detected regions and may use
-  undo and redo functionality during editing.
-</p>
-
-
-<h2>6. Image Saving and Metadata</h2>
-
-<p>
-  Edited images may be saved in formats such as JPEG or PNG.
-</p>
-
-<p>
-  The App is designed to remove certain metadata, including some EXIF
-  metadata, by re-encoding the image during export.
-</p>
-
-<p>
-  However, removal of every possible metadata field cannot be guaranteed
-  across all devices, operating systems, image formats, or future App versions.
-</p>
-
-<p>
-  Users should independently verify highly sensitive images before sharing
-  them outside the device.
-</p>
-
-
-<h2>7. Device Permissions</h2>
-
-<p>
-  Depending on the device and operating system, the App may request access
-  to or use system functionality required for:
-</p>
-
-<ul>
-  <li>Selecting photos or media</li>
-  <li>Saving edited photos</li>
-  <li>Using the system Photo Picker</li>
-  <li>Accessing permitted device storage locations</li>
-</ul>
-
-<p>
-  On supported Android and iOS versions, the App may prefer system-provided
-  photo selection mechanisms instead of requesting broad access to the
-  user's entire photo library.
-</p>
-
-
-<h2>8. Local Data Storage</h2>
-
-<p>
-  The App may store settings, editing state, preferences, and other
-  App-related data locally on the user's device.
-</p>
-
-<p>
-  This local data is used only to provide or improve the App's functionality.
-</p>
-
-<p>
-  Users may delete local App data by:
-</p>
-
-<ul>
-  <li>Using deletion features available in the App</li>
-  <li>Clearing the App's storage through the operating system</li>
-  <li>Uninstalling the App</li>
-</ul>
-
-
-<h2>9. Third-Party Services</h2>
-
-<p>
-  The App may use services or SDKs provided by Google or other third parties
-  to provide certain functionality.
-</p>
-
-<p>
-  Services currently used or that may be used in future versions include:
-</p>
-
-<ul>
-  <li>Google Play Services</li>
-  <li>Google ML Kit</li>
-  <li>Google AdMob</li>
-  <li>Firebase Crashlytics, if enabled</li>
-  <li>Google Analytics for Firebase, if enabled</li>
-</ul>
-
-<p>
-  These third-party services may process certain technical information in
-  accordance with their own privacy policies and terms.
-</p>
-
-<ul>
-  <li>
-    Google Privacy Policy:
-    <a href="https://policies.google.com/privacy"
-       target="_blank"
-       rel="noopener noreferrer">
-      https://policies.google.com/privacy
-    </a>
-  </li>
-
-  <li>
-    Google ML Kit Terms:
-    <a href="https://developers.google.com/ml-kit/terms"
-       target="_blank"
-       rel="noopener noreferrer">
-      https://developers.google.com/ml-kit/terms
-    </a>
-  </li>
-
-  <li>
-    Google AdMob:
-    <a href="https://support.google.com/admob/answer/6128543"
-       target="_blank"
-       rel="noopener noreferrer">
-      https://support.google.com/admob/answer/6128543
-    </a>
-  </li>
-
-  <li>
-    Firebase Privacy:
-    <a href="https://firebase.google.com/support/privacy"
-       target="_blank"
-       rel="noopener noreferrer">
-      https://firebase.google.com/support/privacy
-    </a>
-  </li>
-</ul>
-
-
-<h2>10. Advertising</h2>
-
-<p>
-  층간기록 may display advertisements through Google AdMob or similar
-  advertising services.
-</p>
-
-<p>
-  If advertising services are enabled, advertising providers may process
-  information such as:
-</p>
-
-<ul>
-  <li>Device information</li>
-  <li>Operating system and App version</li>
-  <li>Advertising ID, where available and permitted</li>
-  <li>Approximate location</li>
-  <li>Ad interaction information</li>
-  <li>App usage and diagnostic information</li>
-</ul>
-
-<p>
-  Network communications performed by advertising SDKs are separate from
-  the App's photo editing and privacy detection functionality.
-</p>
-
-<p>
-  The App is not designed to provide user-selected photos, OCR-recognized
-  text, detected faces, or sensitive-information coordinates to advertising
-  providers for advertising purposes.
-</p>
-
-<p>
-  We do not sell personal information to advertisers.
-</p>
-
-
-<h2>11. Analytics and Crash Reporting</h2>
-
-<p>
-  The App may use analytics or crash reporting services in future versions
-  to improve stability, performance, and usability.
-</p>
-
-<p>
-  If such services are used, the App is designed so that the following
-  sensitive information should not be intentionally included in analytics
-  events or crash reports:
-</p>
-
-<ul>
-  <li>User-selected original photos</li>
-  <li>Local photo file paths</li>
-  <li>Actual OCR-recognized text</li>
-  <li>Exact face or sensitive-data coordinates</li>
-  <li>Resident registration numbers</li>
-  <li>Phone numbers</li>
-  <li>Email addresses</li>
-  <li>Bank account numbers</li>
-</ul>
-
-
-<h2>12. Data Sharing</h2>
-
-<p>
-  층간기록 does not sell user photos or sensitive information detected
-  within photos.
-</p>
-
-<p>
-  Third-party service providers may process limited technical information
-  when necessary to operate, maintain, analyze, improve, or monetize the App.
-  Such processing is governed by the respective provider's privacy policy
-  and applicable law.
-</p>
-
-<p>
-  We may disclose information where required by applicable law or a valid
-  legal process. However, because 층간기록 does not operate a centralized
-  server storing user photos or OCR results for the App's core functionality,
-  we cannot provide information that we do not possess.
-</p>
-
-
-<h2>13. Data Security</h2>
-
-<p>
-  층간기록 is designed to perform as much photo processing as reasonably
-  possible on the user's device in order to reduce unnecessary transmission
-  of sensitive content.
-</p>
-
-<p>
-  However, no method of electronic storage, processing, or transmission can
-  guarantee absolute security. Users should take appropriate precautions
-  when storing or sharing highly sensitive images.
-</p>
-
-
-<h2>14. Data Retention and Deletion</h2>
-
-<p>
-  층간기록 does not retain user photos, OCR-recognized text, or face
-  detection data on its own servers as part of the App's core image editing
-  functionality.
-</p>
-
-<p>
-  Data stored locally on the user's device may remain until the user deletes
-  it, clears App storage, deletes saved images, or uninstalls the App.
-</p>
-
-<p>
-  Information processed by third-party services such as Google AdMob or
-  Firebase is retained and deleted according to the privacy policies and
-  retention practices of those providers.
-</p>
-
-
-<h2>15. Children's Privacy</h2>
-
-<p>
-  층간기록 is not primarily directed to children under the age of 13.
-</p>
-
-<p>
-  We do not knowingly collect personally identifiable information from
-  children under 13 through servers operated by 층간기록.
-</p>
-
-<p>
-  If the App is later made available to children under 13 or becomes part of
-  a child-directed target audience, we will update this Privacy Policy and
-  implement additional measures required by applicable child privacy laws,
-  Google Play policies, and other relevant platform requirements.
-</p>
-
-
-<h2>16. User Choices</h2>
-
-<p>
-  Users may manage App-related privacy settings through their device,
-  including:
-</p>
-
-<ul>
-  <li>Changing photo access permissions</li>
-  <li>Changing storage-related permissions</li>
-  <li>Deleting locally stored App data</li>
-  <li>Deleting saved edited images</li>
-  <li>Resetting or deleting the Advertising ID</li>
-  <li>Limiting personalized advertising where supported</li>
-  <li>Uninstalling the App</li>
-</ul>
-
-
-<h2>17. Changes to This Privacy Policy</h2>
-
-<p>
-  We may update this Privacy Policy from time to time to reflect changes in
-  App functionality, applicable law, Google Play or Apple App Store policies,
-  or third-party services used by the App.
-</p>
-
-<p>
-  When this Privacy Policy is updated, the "Last updated" date shown at the
-  top of this page will be revised.
-</p>
-
-
-<h2>18. Contact Us</h2>
-
-<p>
-  If you have any questions, concerns, or requests regarding this Privacy
-  Policy or the App's data practices, please contact us:
-</p>
-
-<div class="contact-box">
-  <p><strong>Developer Name:</strong> Seung Seob Lee</p>
-  <p><strong>Developer / Publisher:</strong> SeulStudio</p>
-  <p><strong>App Name:</strong> 층간기록</p>
-
-  <p>
-    <strong>Email:</strong>
-    <a href="mailto:quim119@gmail.com">quim119@gmail.com</a>
-  </p>
-</div>
-
-<footer>
-  <p>&copy; 2026 SeulStudio All rights reserved.</p>
-</footer>
-```
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: September 25, 2026</p>
+
+    <p>
+      This Privacy Policy explains how SeulStudio ("we", "our", or "the Developer")
+      handles information in <strong>층간기록</strong> ("the App").
+    </p>
+
+    <p>
+      층간기록 is a local-first mobile application designed to help users record,
+      organize, review, and export information related to inter-floor noise events.
+      Depending on the user's choices, a record may include estimated noise measurements,
+      original audio, optional video, date and time, location or address information,
+      event markers, notes, response history, integrity hashes, and generated reports.
+    </p>
+
+    <div class="notice-box">
+      <strong>Local-first design:</strong>
+      The App is designed so that core records and evidence files are stored on the
+      user's device. The App does not require an account and does not operate a central
+      server for storing users' noise recordings, videos, reports, or event records.
+      Files leave the device only when the user actively exports, backs up, or shares them,
+      except for limited technical data that may be processed by third-party advertising
+      services as described below.
+    </div>
+
+    <p>
+      By using the App, you agree to the practices described in this Privacy Policy.
+    </p>
+
+    <h2>1. Information Processed by the App</h2>
+
+    <p>
+      The App may process the following information when the user enables or uses the
+      corresponding features:
+    </p>
+
+    <ul>
+      <li>Microphone audio captured during a noise recording session</li>
+      <li>Estimated sound level information derived from microphone input</li>
+      <li>Minimum, maximum, average, and equivalent noise values generated by the App</li>
+      <li>Event markers such as footsteps, children running, door closing, furniture movement, instruments, or other user-selected categories</li>
+      <li>Optional video captured or selected by the user</li>
+      <li>Date and time associated with a recording or event</li>
+      <li>Optional location, address, or place information entered or permitted by the user</li>
+      <li>User-entered notes, tags, and response or contact history</li>
+      <li>Locally generated file integrity information such as SHA-256 hashes</li>
+      <li>Locally generated PDF, CSV, ZIP, backup, and report files</li>
+      <li>App settings and preferences</li>
+    </ul>
+
+    <p>
+      The App does not require users to provide a name, account, email address, phone
+      number, or other profile information in order to use its core recording features.
+    </p>
+
+    <h2>2. Microphone and Audio Recording</h2>
+
+    <p>
+      The App may request microphone access so that users can record environmental sound
+      associated with a noise event and estimate relative sound levels from the microphone
+      signal.
+    </p>
+
+    <p>
+      Audio recordings are designed to be stored locally on the user's device. The App's
+      core recording functionality does not upload original audio to servers operated by
+      SeulStudio.
+    </p>
+
+    <p>
+      Estimated dB or equivalent-noise values generated by the App are based on the
+      capabilities and calibration characteristics of the device microphone and are not
+      guaranteed to be equivalent to measurements from a certified sound-level meter.
+    </p>
+
+    <h2>3. Optional Video Recording</h2>
+
+    <p>
+      If the user enables video evidence features, the App may request camera and related
+      media permissions to capture or store video associated with a noise event.
+    </p>
+
+    <p>
+      Where implemented, the App may store audio and video as separate evidence files and
+      may calculate hashes for those files to help the user verify whether a file has been
+      altered after capture.
+    </p>
+
+    <p>
+      Video is not required for all App functions. Users should only record video when
+      permitted by applicable law and when they have a lawful basis to capture the scene.
+    </p>
+
+    <h2>4. Location and Address Information</h2>
+
+    <p>
+      The App may allow users to attach location, address, or place information to a noise
+      event. Depending on the device and App configuration, this may be entered manually
+      or obtained through device location services with the user's permission.
+    </p>
+
+    <p>
+      Location information used for event records is designed to be stored locally with the
+      related record unless the user chooses to export, back up, or share that record.
+    </p>
+
+    <h2>5. Event Markers, Notes, and Response History</h2>
+
+    <p>
+      Users may add event markers, tags, notes, and response history to help organize an
+      incident. Examples may include contact with a building management office, another
+      resident, police, a noise dispute center, mediation body, attorney, or other party.
+    </p>
+
+    <p>
+      These entries are created by the user and are intended for personal organization and
+      documentation. The App does not independently verify the accuracy of user-entered
+      notes, labels, allegations, or conclusions.
+    </p>
+
+    <h2>6. Local Storage</h2>
+
+    <p>
+      Core App data is designed to be stored locally on the user's device, including:
+    </p>
+
+    <ul>
+      <li>Noise event records</li>
+      <li>Audio and optional video evidence files</li>
+      <li>Event markers and notes</li>
+      <li>Response history</li>
+      <li>Settings and preferences</li>
+      <li>Generated reports and export files</li>
+      <li>File-integrity hashes</li>
+    </ul>
+
+    <p>
+      Local data may remain on the device until the user deletes it, clears App storage,
+      deletes exported files, restores the device, or uninstalls the App.
+    </p>
+
+    <h2>7. Export, Backup, and Sharing</h2>
+
+    <p>
+      The App may allow users to export records as PDF, CSV, ZIP, backup archives, or
+      similar files. Exported packages may contain information selected by the user,
+      including recordings, videos, location or address data, notes, timestamps, markers,
+      response history, and integrity information.
+    </p>
+
+    <p>
+      The App does not automatically send these files to third parties. Files leave the
+      App's local storage only when the user initiates an export, backup, share, copy, or
+      similar action, or when the operating system stores them in a user-selected location.
+    </p>
+
+    <p>
+      Once a user shares or saves a file outside the App, that file may be handled by the
+      operating system, cloud-storage provider, messaging service, email service, receiving
+      person, or other third party selected by the user. Their privacy practices are not
+      controlled by SeulStudio.
+    </p>
+
+    <h2>8. File Integrity Information</h2>
+
+    <p>
+      The App may calculate cryptographic hashes such as SHA-256 for locally stored audio,
+      video, or exported evidence files. A hash can help detect whether a file has changed
+      after the hash was created.
+    </p>
+
+    <p>
+      A file hash does not by itself establish legal admissibility, authenticity, ownership,
+      or the truth of the recorded event.
+    </p>
+
+    <h2>9. Device Permissions</h2>
+
+    <p>
+      Depending on the features used and the operating system, the App may request access
+      to system functions such as:
+    </p>
+
+    <ul>
+      <li>Microphone access for audio recording and noise estimation</li>
+      <li>Camera access for optional video evidence</li>
+      <li>Photo or media access when importing or saving supported files</li>
+      <li>File or storage access for reports, backups, and exports</li>
+      <li>Location access when the user chooses to attach location to a record</li>
+      <li>Notifications, if reminder or status features are enabled</li>
+    </ul>
+
+    <p>
+      Users can manage App permissions through the device operating system. Some features
+      may not work if the required permission is denied.
+    </p>
+
+    <h2>10. Advertising</h2>
+
+    <p>
+      The App may display banner advertisements through Google AdMob.
+    </p>
+
+    <p>
+      If advertising is enabled, Google or its advertising partners may process limited
+      technical information such as:
+    </p>
+
+    <ul>
+      <li>Device and operating system information</li>
+      <li>App version</li>
+      <li>Advertising identifiers, where available and permitted</li>
+      <li>Approximate location derived by the advertising service, where permitted</li>
+      <li>Ad interaction information</li>
+      <li>App usage and diagnostic information related to advertising delivery</li>
+    </ul>
+
+    <p>
+      Advertising SDK communications are separate from the App's local evidence-recording
+      functionality. The App is not designed to provide users' original audio recordings,
+      video evidence, event notes, exact event locations, or generated evidence packages to
+      advertising providers for advertising purposes.
+    </p>
+
+    <p>
+      Google Privacy Policy:
+      <a href="https://policies.google.com/privacy"
+         target="_blank"
+         rel="noopener noreferrer">
+        https://policies.google.com/privacy
+      </a>
+    </p>
+
+    <p>
+      Google AdMob information:
+      <a href="https://support.google.com/admob/answer/6128543"
+         target="_blank"
+         rel="noopener noreferrer">
+        https://support.google.com/admob/answer/6128543
+      </a>
+    </p>
+
+    <h2>11. Data Sharing</h2>
+
+    <p>
+      SeulStudio does not sell users' noise recordings, videos, event records, notes, or
+      location information.
+    </p>
+
+    <p>
+      User-created records may be disclosed to third parties only when the user chooses to
+      export or share them, or where disclosure is otherwise required by applicable law or
+      valid legal process and the Developer actually possesses the relevant information.
+    </p>
+
+    <p>
+      Because the App is designed without a centralized SeulStudio server for users'
+      evidence records, the Developer generally cannot provide copies of local records that
+      remain only on the user's device.
+    </p>
+
+    <h2>12. Data Security</h2>
+
+    <p>
+      The App is designed to reduce unnecessary transmission of sensitive evidence by
+      keeping core records on the user's device.
+    </p>
+
+    <p>
+      However, no electronic storage system can guarantee absolute security. Users are
+      responsible for protecting their devices, device backups, exported evidence files,
+      and any copies they choose to share.
+    </p>
+
+    <p>
+      If the App provides local backup, PIN, biometric, encryption, or similar protections
+      in a particular version, users should still maintain appropriate device-level security
+      and secure handling of exported files.
+    </p>
+
+    <h2>13. Data Retention and Deletion</h2>
+
+    <p>
+      Data stored locally by the App may remain until the user deletes the record, clears
+      App storage, removes exported files, or uninstalls the App.
+    </p>
+
+    <p>
+      Exported files copied to other folders, cloud drives, messaging apps, email services,
+      or recipient devices must be deleted separately from those locations.
+    </p>
+
+    <p>
+      Information processed by third-party services such as Google AdMob is retained and
+      deleted according to the policies of those providers.
+    </p>
+
+    <h2>14. Legal and Safety Considerations</h2>
+
+    <div class="warning-box">
+      <strong>Important:</strong>
+      Laws regarding audio recording, video recording, location information, personal data,
+      surveillance, evidence collection, and sharing may differ by jurisdiction and situation.
+      Users are responsible for determining whether their recording and sharing activities
+      are lawful.
+    </div>
+
+    <p>
+      The App does not determine whether a person committed a crime, violated a lease,
+      caused a specific noise event, or bears legal responsibility for an incident.
+    </p>
+
+    <p>
+      Noise measurements, pattern summaries, labels, markers, and generated reports are
+      intended to help users document and organize events. They are not a substitute for a
+      certified sound-level measurement, professional investigation, legal advice, or an
+      official determination by a court, public authority, building management body, or
+      dispute-resolution organization.
+    </p>
+
+    <h2>15. Children's Privacy</h2>
+
+    <p>
+      The App is not primarily directed to children under the age of 13.
+    </p>
+
+    <p>
+      SeulStudio does not knowingly operate a server that collects children's audio,
+      videos, event records, or location information as part of the App's core functionality.
+    </p>
+
+    <h2>16. User Choices</h2>
+
+    <p>
+      Users may manage their privacy by:
+    </p>
+
+    <ul>
+      <li>Granting or denying microphone, camera, media, location, and notification permissions</li>
+      <li>Choosing whether to enable optional video or location features</li>
+      <li>Deleting individual event records and evidence files</li>
+      <li>Deleting local backups and exported files</li>
+      <li>Clearing the App's local storage</li>
+      <li>Managing advertising preferences where supported by the operating system or advertising provider</li>
+      <li>Uninstalling the App</li>
+    </ul>
+
+    <h2>17. Changes to This Privacy Policy</h2>
+
+    <p>
+      We may update this Privacy Policy from time to time to reflect changes in App
+      functionality, applicable law, Google Play or Apple App Store policies, or third-party
+      services used by the App.
+    </p>
+
+    <p>
+      When this Privacy Policy is updated, the "Last updated" date shown at the top of this
+      page will be revised.
+    </p>
+
+    <h2>18. Contact Us</h2>
+
+    <p>
+      If you have questions, concerns, or requests regarding this Privacy Policy or the
+      App's data practices, please contact us:
+    </p>
+
+    <div class="contact-box">
+      <p><strong>Developer Name:</strong> Seung Seob Lee</p>
+      <p><strong>Developer / Publisher:</strong> SeulStudio</p>
+      <p><strong>App Name:</strong> 층간기록</p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:quim119@gmail.com">quim119@gmail.com</a>
+      </p>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 SeulStudio. All rights reserved.</p>
+    </footer>
 
   </main>
 </body>
