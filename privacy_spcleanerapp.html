@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - 스피커 클리너</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #222;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      background-color: #ffffff;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: #111;
+    }
+    h2 {
+      font-size: 22px;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      color: #222;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+    p { margin: 12px 0; }
+    ul { margin: 12px 0 12px 24px; padding: 0; }
+    li { margin-bottom: 8px; }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    a:hover { text-decoration: underline; }
+    .updated {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+    .notice-box {
+      background-color: #f2f7ff;
+      border: 1px solid #d5e5ff;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .warning-box {
+      background-color: #fff8eb;
+      border: 1px solid #f0d9a7;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .contact-box {
+      background-color: #f2f4f8;
+      border: 1px solid #ddd;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 16px;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: September 27, 2026</p>
+
+    <p>
+      This Privacy Policy explains how SeulStudio ("we", "our", or "the Developer")
+      handles information in <strong>스피커 클리너</strong> ("the App").
+    </p>
+
+    <p>
+      스피커 클리너 is an offline-first mobile application that generates specific sound
+      patterns to vibrate a smartphone speaker and assist with removing moisture and light
+      debris. The App also provides manual tone controls, speaker tests, cleaning history,
+      local reminders, user presets, and local backup and restore features.
+    </p>
+
+    <div class="notice-box">
+      <strong>Offline-first design:</strong>
+      The App does not require an account, sign-in, or a SeulStudio server for its core
+      cleaning, manual playback, or sound-test functionality. App settings, cleaning history,
+      user presets, scores, and notes are designed to remain on the user's device unless the
+      user explicitly chooses to share or copy backup data.
+    </div>
+
+    <p>
+      By using the App, you agree to the practices described in this Privacy Policy.
+    </p>
+
+    <h2>1. Information Processed by the App</h2>
+
+    <p>The App may process and store the following information locally on the user's device:</p>
+
+    <ul>
+      <li>App settings and theme preferences</li>
+      <li>Safe-output and playback settings</li>
+      <li>Cleaning history and usage records</li>
+      <li>Before-and-after perceived speaker condition scores</li>
+      <li>User-entered notes</li>
+      <li>Custom manual-mode presets</li>
+      <li>Last-used cleaning program</li>
+      <li>Reminder settings and reminder time</li>
+      <li>Locally generated statistics and score trends</li>
+    </ul>
+
+    <p>
+      The App does not require the user to provide a name, email address, phone number,
+      postal address, or account credentials to use its core features.
+    </p>
+
+    <h2>2. Local Storage</h2>
+
+    <p>
+      App settings, records, presets, scores, notes, and reminder preferences are stored
+      locally using SharedPreferences or equivalent platform-local storage.
+    </p>
+
+    <p>
+      This information is not uploaded to a SeulStudio server as part of the App's core
+      functionality.
+    </p>
+
+    <h2>3. Audio Generation and Playback</h2>
+
+    <p>
+      The App uses flutter_soloud to generate audio waveforms in real time, including
+      sine, triangle, and filtered square waves.
+    </p>
+
+    <p>
+      The App does not need to upload user audio files or stream cleaning sounds from a
+      remote server. Cleaning, manual playback, and sound-test functions are designed to
+      work offline.
+    </p>
+
+    <p>
+      The App may change frequency, waveform, output level, and duration according to the
+      selected cleaning program or manual settings.
+    </p>
+
+    <h2>4. Audio Route Detection</h2>
+
+    <p>
+      To reduce the risk of playing cleaning tones through headphones, Bluetooth devices,
+      or external audio devices, the App may inspect the current audio output route.
+    </p>
+
+    <p>
+      This information is used only to display a safety warning before playback and is not
+      stored on a SeulStudio server.
+    </p>
+
+    <h2>5. Local Notifications</h2>
+
+    <p>
+      If enabled by the user, the App may schedule daily maintenance reminders using
+      flutter_local_notifications.
+    </p>
+
+    <p>
+      Depending on the operating system version, notification permission may be required.
+      On Android, the App may also use system capabilities required to restore scheduled
+      reminders after a device restart.
+    </p>
+
+    <p>
+      Users can disable reminders in the App settings or through the operating system's
+      notification settings.
+    </p>
+
+    <h2>6. Backup, Copy, Share, and Restore</h2>
+
+    <p>
+      The App may allow users to create text-based backups of local App data and restore
+      those backups later.
+    </p>
+
+    <p>
+      The share feature uses share_plus and is activated only when the user explicitly
+      chooses to share or copy backup data.
+    </p>
+
+    <p>
+      After data is shared with another app, messaging service, email service, cloud-storage
+      provider, or other destination selected by the user, that third party's privacy
+      practices apply.
+    </p>
+
+    <h2>7. Advertising</h2>
+
+    <p>
+      The App may display a Google AdMob banner advertisement on the Home tab.
+    </p>
+
+    <p>
+      The App does not use interstitial or rewarded advertisements, and banner advertising
+      is not displayed on the cleaning, manual playback, or sound-test screens.
+    </p>
+
+    <p>
+      When AdMob is enabled, Google and its advertising partners may process limited
+      technical information such as:
+    </p>
+
+    <ul>
+      <li>Device and operating system information</li>
+      <li>App version</li>
+      <li>Advertising identifiers, where available and permitted</li>
+      <li>Approximate location derived by the advertising service, where permitted</li>
+      <li>Ad interaction information</li>
+      <li>Advertising-related diagnostic or usage information</li>
+    </ul>
+
+    <p>
+      Advertising communications are separate from the App's local cleaning history,
+      user presets, scores, notes, and backup data.
+    </p>
+
+    <p>
+      Google Privacy Policy:
+      <a href="https://policies.google.com/privacy"
+         target="_blank"
+         rel="noopener noreferrer">
+        https://policies.google.com/privacy
+      </a>
+    </p>
+
+    <p>
+      Google AdMob:
+      <a href="https://support.google.com/admob/"
+         target="_blank"
+         rel="noopener noreferrer">
+        https://support.google.com/admob/
+      </a>
+    </p>
+
+    <h2>8. Network Use</h2>
+
+    <p>
+      Core cleaning, manual playback, and sound-test functions are designed to work
+      without network access.
+    </p>
+
+    <p>Network communication may occur when:</p>
+
+    <ul>
+      <li>The Home tab loads a Google AdMob banner advertisement</li>
+      <li>The user shares backup data through a network-enabled third-party app</li>
+    </ul>
+
+    <p>
+      The App does not send cleaning history, user presets, scores, or notes to a SeulStudio
+      server as part of normal App operation.
+    </p>
+
+    <h2>9. Permissions and System Access</h2>
+
+    <p>
+      Depending on the operating system and enabled features, the App may use or request:
+    </p>
+
+    <ul>
+      <li>Notification permission for local reminders</li>
+      <li>Boot-completed access on Android to restore scheduled reminders</li>
+      <li>Audio route information to warn about headphones or Bluetooth output</li>
+      <li>Screen wake or keep-screen-on behavior during certain playback flows</li>
+    </ul>
+
+    <p>
+      Permissions and system capabilities are used only for the corresponding App
+      functionality.
+    </p>
+
+    <h2>10. Diagnostic and Sample Data</h2>
+
+    <p>
+      Debug builds may automatically populate sample records when the history is empty,
+      and development settings may provide a manual option to add sample data.
+    </p>
+
+    <p>
+      Such sample records are local development and testing data and are not intended to
+      represent or upload real user information.
+    </p>
+
+    <h2>11. Third-Party Services and Libraries</h2>
+
+    <p>The App may use the following third-party services or libraries:</p>
+
+    <ul>
+      <li>Google AdMob</li>
+      <li>flutter_soloud</li>
+      <li>flutter_local_notifications</li>
+      <li>share_plus</li>
+      <li>audio_session</li>
+    </ul>
+
+    <p>
+      Where a third-party service communicates over a network, its own terms and privacy
+      policies may apply.
+    </p>
+
+    <h2>12. Data Sharing</h2>
+
+    <p>
+      SeulStudio does not sell users' cleaning history, presets, scores, notes, or backup
+      data.
+    </p>
+
+    <p>
+      Local data is shared with another service only when the user intentionally uses a
+      sharing or copy function, except for limited technical data independently processed
+      by advertising services as described above.
+    </p>
+
+    <h2>13. Data Retention and Deletion</h2>
+
+    <p>
+      Data stored locally by the App may remain on the device until the user deletes
+      individual records where supported, clears App storage, restores or resets the device,
+      or uninstalls the App.
+    </p>
+
+    <p>
+      Copies previously shared or saved outside the App must be deleted separately from
+      the destination where they were stored.
+    </p>
+
+    <p>
+      Information processed by Google AdMob is retained and deleted in accordance with
+      Google's applicable policies.
+    </p>
+
+    <h2>14. Data Security</h2>
+
+    <p>
+      The App is designed to reduce unnecessary transmission of user data by keeping core
+      settings and history on the device.
+    </p>
+
+    <p>
+      No electronic storage method can guarantee absolute security. Users should protect
+      their device and any backup data they choose to copy or share.
+    </p>
+
+    <h2>15. Safety and Functional Limitations</h2>
+
+    <div class="warning-box">
+      <strong>Important:</strong>
+      스피커 클리너 is a maintenance-assistance tool, not a hardware repair service.
+      Results may vary depending on device design, speaker condition, moisture, contamination,
+      volume level, and other physical factors.
+    </div>
+
+    <ul>
+      <li>Do not intentionally use the cleaning tones through headphones or external speakers.</li>
+      <li>Do not begin at maximum volume.</li>
+      <li>Stop immediately if severe vibration, distortion, crackling, or metallic noise occurs.</li>
+      <li>If the device is significantly wet or the charging port contains moisture, power off and allow the device to dry appropriately before use.</li>
+      <li>The App cannot repair corrosion, physical hardware damage, or a damaged speaker diaphragm.</li>
+    </ul>
+
+    <h2>16. Children's Privacy</h2>
+
+    <p>
+      The App is not primarily designed to collect personal information from children and
+      does not require a SeulStudio account or centralized user profile.
+    </p>
+
+    <p>
+      If the App's target audience or functionality changes in a way that requires
+      additional child-privacy measures, this Privacy Policy will be updated as appropriate.
+    </p>
+
+    <h2>17. User Choices</h2>
+
+    <p>Users can manage their data and privacy by:</p>
+
+    <ul>
+      <li>Enabling or disabling local reminders</li>
+      <li>Managing notification permission in the operating system</li>
+      <li>Deleting supported local records</li>
+      <li>Clearing the App's local data</li>
+      <li>Deleting backup copies saved outside the App</li>
+      <li>Managing advertising preferences where supported</li>
+      <li>Uninstalling the App</li>
+    </ul>
+
+    <h2>18. Changes to This Privacy Policy</h2>
+
+    <p>
+      We may update this Privacy Policy from time to time to reflect changes in App
+      functionality, applicable law, Google Play or Apple App Store policies, or third-party
+      services used by the App.
+    </p>
+
+    <p>
+      When this Privacy Policy is updated, the "Last updated" date shown at the top of this
+      page will be revised.
+    </p>
+
+    <h2>19. Contact Us</h2>
+
+    <p>
+      If you have questions, concerns, or requests regarding this Privacy Policy or the
+      App's data practices, please contact us:
+    </p>
+
+    <div class="contact-box">
+      <p><strong>Developer Name:</strong> Seung Seob Lee</p>
+      <p><strong>Developer / Publisher:</strong> SeulStudio</p>
+      <p><strong>App Name:</strong> 스피커 클리너</p>
+      <p><strong>Package ID:</strong> com.seul.spcleanerapp</p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:quim119@gmail.com">quim119@gmail.com</a>
+      </p>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 SeulStudio. All rights reserved.</p>
+    </footer>
+
+  </main>
+</body>
+</html>
